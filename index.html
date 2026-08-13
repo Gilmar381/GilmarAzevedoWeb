@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GilmarAzevedoWeb — Desenvolvimento de sites e landing pages</title>
+<meta name="description" content="Desenvolvimento de sites e landing pages sob medida. Do briefing à entrega, com acompanhamento em cada etapa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header>
+  <nav class="nav">
+    <div class="logo"><span class="tag">&lt;</span><span class="name">GilmarAzevedoWeb</span><span class="tag"> /&gt;</span></div>
+    <div class="nav-links" id="navLinks">
+      <a href="#servicos">Serviços</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#faq">Perguntas</a>
+      <a href="#contato" class="nav-cta">Falar comigo</a>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+  </nav>
+</header>
+
+<section class="hero">
+  <pre class="hero-code">function buildSite(client) {
+  return client
+    .brief()
+    .design()
+    .develop()
+    .deploy();
+}
+
+const result = buildSite(you);
+// pronto pra receber clientes</pre>
+  <div class="wrap">
+    <div class="hero-inner">
+      <span class="eyebrow">desenvolvimento web sob medida</span>
+      <h1>Sites que <em>funcionam</em> de verdade.</h1>
+      <p>Construo sites e landing pages para negócios que precisam de presença online sólida — do briefing ao ar, com acompanhamento em cada etapa.</p>
+      <div class="btn-row">
+        <a href="https://wa.me/5511913646541?text=Ol%C3%A1!%20Vi%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20para%20o%20meu%20projeto." class="btn btn-primary" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+        <a href="#portfolio" class="btn btn-ghost">Ver portfólio</a>
+      </div>
+      <div class="hero-badges">
+        <span class="hero-badge"><strong>4</strong> projetos entregues</span>
+        <span class="hero-badge"><strong>Orçamento</strong> sob consulta</span>
+        <span class="hero-badge"><strong>Resposta</strong> rápida no WhatsApp</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="servicos">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">o que eu faço</span>
+      <h2>Serviços</h2>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <span class="num">01</span>
+        <h3>Landing pages</h3>
+        <p>Página única focada em converter visitante em cliente — ideal pra divulgar um produto, serviço ou evento.</p>
+      </div>
+      <div class="service-card">
+        <span class="num">02</span>
+        <h3>Sites institucionais</h3>
+        <p>Presença online completa para o seu negócio, com todas as seções que seus clientes precisam encontrar.</p>
+      </div>
+      <div class="service-card">
+        <span class="num">03</span>
+        <h3>Sites para restaurantes</h3>
+        <p>Cardápio, ambiente e reservas em um só lugar, com visual que combina com a identidade do seu negócio.</p>
+      </div>
+      <div class="service-card">
+        <span class="num">04</span>
+        <h3>Páginas de curadoria</h3>
+        <p>Estruturas interativas para catálogos, recomendações ou coleções — com filtros e navegação sob medida.</p>
+      </div>
+      <div class="service-card">
+        <span class="num">05</span>
+        <h3>Manutenção e ajustes</h3>
+        <p>Seu site já existe mas precisa de atualização, correção ou uma nova seção? Também cuido disso.</p>
+      </div>
+      <div class="service-card">
+        <span class="num">06</span>
+        <h3>Consultoria rápida</h3>
+        <p>Não sabe por onde começar? Conversamos e te ajudo a decidir o melhor caminho pro seu projeto.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="como-funciona">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">o processo</span>
+      <h2>Como funciona</h2>
+    </div>
+    <div class="steps-nav" id="stepsNav">
+      <button class="step-btn active" data-i="0">
+        <span class="n">01</span><span class="t">Conversa inicial</span>
+      </button>
+      <button class="step-btn" data-i="1">
+        <span class="n">02</span><span class="t">Proposta e prazo</span>
+      </button>
+      <button class="step-btn" data-i="2">
+        <span class="n">03</span><span class="t">Desenvolvimento</span>
+      </button>
+      <button class="step-btn" data-i="3">
+        <span class="n">04</span><span class="t">Entrega e ajustes</span>
+      </button>
+    </div>
+    <div class="step-detail">
+      <p id="stepText">Você me conta o que precisa: pra quem é o site, o que ele precisa fazer e qual o prazo ideal.</p>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">trabalhos realizados</span>
+      <h2>Portfólio</h2>
+    </div>
+    <div class="portfolio-grid">
+      <div class="project-card">
+        <div class="project-thumb"><img src="img/pintura.png" alt="Site do Gilmar Azevedo Pintura"></div>
+        <div class="project-body">
+          <h3>Gilmar Azevedo Pintura</h3>
+          <p>Site institucional para prestador de serviço, com foco em orçamento rápido via WhatsApp.</p>
+          <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">WhatsApp API</span></div>
+          <a href="https://gilmarazevedopintura.com.br/" class="project-link" target="_blank" rel="noopener">Ver site →</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb"><img src="img/hamburgueria.png" alt="Site da Casa Ferreira Burger"></div>
+        <div class="project-body">
+          <h3>Casa Ferreira Burger</h3>
+          <p>Landing page de hamburgueria artesanal com storytelling de marca e cardápio interativo.</p>
+          <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+          <a href="https://gilmar381.github.io/landing-pag_Humburgueria/" class="project-link" target="_blank" rel="noopener">Ver site →</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb"><img src="img/estante.png" alt="Site Estante de Livros"></div>
+        <div class="project-body">
+          <h3>Estante de Livros</h3>
+          <p>Página de curadoria com estante visual interativa e sistema de filtros por categoria.</p>
+          <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+          <a href="https://gilmar381.github.io/Estante_De_Livros/" class="project-link" target="_blank" rel="noopener">Ver site →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">dúvidas comuns</span>
+      <h2>Perguntas frequentes</h2>
+    </div>
+    <div id="faqList">
+      <div class="faq-item open">
+        <button class="faq-q">Quanto custa um site?<span class="icon">+</span></button>
+        <div class="faq-a"><p>Depende do tamanho e da complexidade do projeto. Me chama no WhatsApp contando o que você precisa e te passo um valor sem compromisso.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Quanto tempo leva pra ficar pronto?<span class="icon">+</span></button>
+        <div class="faq-a"><p>Landing pages simples costumam ficar prontas entre 5 e 10 dias úteis. Sites maiores, com mais seções, levam um pouco mais — o prazo exato entra na proposta.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Preciso ter hospedagem e domínio?<span class="icon">+</span></button>
+        <div class="faq-a"><p>Não precisa se preocupar com isso antes de fechar comigo — eu te oriento sobre as melhores opções durante a conversa inicial.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">O site funciona bem no celular?<span class="icon">+</span></button>
+        <div class="faq-a"><p>Sim. Todo site que eu entrego é responsivo, ou seja, se adapta automaticamente pra ficar bom em celular, tablet e computador.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Depois de pronto, dá pra pedir alterações?<span class="icon">+</span></button>
+        <div class="faq-a"><p>Sim, a entrega inclui um período combinado pra ajustes finos. Depois disso, também ofereço manutenção sob consulta.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contato">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <span class="eyebrow">vamos conversar</span>
+        <h2>Fale comigo</h2>
+        <p>Me manda uma mensagem contando o que você precisa. Respondo rápido, sem burocracia.</p>
+        <div class="contact-method">
+          <div>
+            <span class="label">whatsapp</span>
+            <span class="value">(11) 91364-6541</span>
+          </div>
+        </div>
+        <div class="contact-method">
+          <div>
+            <span class="label">e-mail</span>
+            <span class="value">azevedoprado88@gmail.com</span>
+          </div>
+        </div>
+        <div class="btn-row" style="margin-top:20px;">
+          <a href="https://wa.me/5511913646541?text=Ol%C3%A1!%20Vi%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20para%20o%20meu%20projeto." class="btn btn-primary" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+          <a href="mailto:azevedoprado88@gmail.com" class="btn btn-ghost">Enviar e-mail</a>
+        </div>
+      </div>
+
+      <div class="form-card">
+        <h3>Ou preencha o formulário</h3>
+        <p class="sub">Sua mensagem cai direto na minha caixa de entrada.</p>
+        <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="COLE_SUA_CHAVE_DO_WEB3FORMS_AQUI">
+          <input type="hidden" name="subject" value="Novo contato pelo site GilmarAzevedoWeb">
+          <div class="field">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome" required>
+          </div>
+          <div class="field">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+          </div>
+          <div class="field">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="4" placeholder="Conte um pouco sobre o seu projeto" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Enviar mensagem</button>
+          <p class="form-note">Formulário via Web3Forms — troque "COLE_SUA_CHAVE..." pela sua chave de acesso.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-inner">
+    <div class="logo"><span class="tag">&lt;</span><span class="name">GilmarAzevedoWeb</span><span class="tag"> /&gt;</span></div>
+    <p>© 2026 Gilmar Azevedo — Desenvolvimento web em São Paulo.</p>
+  </div>
+</footer>
+
+ <script src="script.js"></script>
+
+
+</body>
+</html>
