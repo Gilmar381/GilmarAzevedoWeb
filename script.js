@@ -13,7 +13,7 @@
     "Você me conta o que precisa: para quem é o site, o que ele precisa fazer e qual o prazo ideal.",
     "Envio um valor fechado e um prazo claro de entrega, de forma rapida e transparente.",
     "Construo o site em etapas e mostro o progresso pelo caminho, não só na entrega final.",
-    "Você recebe o site no ar, com um período combinado pra pedir pequenos ajustes finos."
+    "Você recebe o site no ar, com um período combinado para pedir pequenos ajustes finos."
   ];
   var stepBtns = document.querySelectorAll('.step-btn');
   var stepText = document.getElementById('stepText');
