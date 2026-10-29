@@ -211,8 +211,8 @@
   position: fixed;
   right: 20px;
   bottom: calc(20px + env(safe-area-inset-bottom, 0px));
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   background: #25d366;
   border-radius: 50%;
   display: flex;
